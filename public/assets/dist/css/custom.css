@@ -1,0 +1,123 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.card-container {
+    background-color: black;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+.card-container-sm {
+    width: 75%;
+    left: 12.5%;
+    background-color: black;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+.card-container:hover {
+    transition: 0.2s;
+    background-color: #0e79c6;
+}
+
+.card-container:hover .card-img-top {
+    transition: 0.2s;
+    opacity: 0;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 30vh;
+    object-fit: cover;
+    border-radius: 10px;
+    opacity: 0.5;
+    transition: 0.2s;
+}
+
+.card-img-top-sm {
+    width: 100%;
+    height: 10vh;
+    object-fit: cover;
+    border-radius: 10px;
+    opacity: 0.5;
+    transition: 0.2s;
+}
+
+.table-interactive tbody tr {
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.table-interactive tbody tr:hover {
+    background-color: #e8eaec;
+    transition: 0.2s;
+}
+
+.upload-box {
+    outline: 2px dashed #e8eaec;
+}
+
+.collapse-arrow .icon {
+    transform: rotate(-180deg);
+    transition: .2s transform ease-in-out;
+    display: inline-block;
+  }
+
+.collapsed .collapse-arrow .icon {
+    transform: rotate(0deg);
+}
+
+.modal-body {
+    overflow-x: hidden;
+}
+
+.special-btn {
+    background-color: #fff;
+    transition: 0.2s;
+}
+
+.special-btn h5 {
+    color: #1c2d41;
+    transition: 0.2s;
+}
+
+.special-btn:hover {
+    background-color: #0e79c6;
+    color: #fff;
+    transition: 0.2s;
+}
+
+.special-btn:hover h5 {
+    color: #fff;
+    transition: 0.2s;
+}
+
+.btn {
+    border-radius: 4px;
+}
+
+.select2-selection__placeholder {
+    color: #b8c3d5 !important;
+}
+
+@media (min-width: 768px) {
+    .vertical-divider-text:before,
+    .vertical-divider-text:after {
+        position: absolute;
+        content: "";
+        width: 1px;
+        left: 50%;
+        border-left: 1px solid rgb(124, 135, 152);
+    }
+    .vertical-divider-text:before {
+        bottom: 50%;
+        top: 0;
+        margin-bottom: 20px;
+    }
+    .vertical-divider-text:after {
+        top: 50%;
+        bottom: 0;
+        margin-top: 20px;
+    }
+}

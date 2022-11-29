@@ -1,0 +1,15 @@
+@if (Str::startsWith(Route::currentRouteName(), 'admin.'))
+    @include('admin.components.open_order.open_order_banner')
+    @include('admin.components.request_management.request_management_approval_banner')
+    @include('components.gate_pass.gate_pass')
+    @include('admin.components.billings.billings')
+    @include('admin.components.quotation.quotation')
+    @include('admin.components.approve_yard_order.approve_yard_order')
+@elseif (Str::startsWith(Route::currentRouteName(), 'mgmt.'))
+    @include('components.modals.order_detail.billings.billings')
+    @include('manager.components.quotation.quotation')
+@else
+    @include('components.gate_pass.gate_pass')
+    @include('customer.components.billings.billings')
+    @include('customer.components.quotation.quotation')
+@endif

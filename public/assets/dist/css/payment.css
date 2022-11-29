@@ -1,0 +1,18 @@
+.payment-selection-input input[type="radio"] {
+    display:none;
+}
+
+.payment-selection-input input[type="radio"]:checked + label a {
+    border: solid 2px #22ca80;
+}
+
+.payment-selection-input label a {
+    border: 1px solid #bbb;
+    border-radius: 8px;
+    transition: 0.2s;
+}
+
+.payment-selection-input label a:hover {
+    border: 2px solid #0e79c6;
+    transition: 0.2s;
+}
