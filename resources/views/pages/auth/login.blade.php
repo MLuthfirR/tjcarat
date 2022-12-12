@@ -5,7 +5,7 @@
         <div class="auth-box row">
             <div class="col-lg-7 col-md-5 modal-bg-img p-0">
                 <video class="video-fluid w-100 h-100 video-banner" autoplay="yes" loop="yes" muted="yes" preload="" style="object-fit: cover">
-                    <source src="{{ asset('assets/videos/port.mp4') }}" type="video/mp4">
+                    <source src="{{ asset('assets/videos/bll.mp4') }}" type="video/mp4">
                 </video>
             </div>
             <div class="col-lg-5 col-md-7 bg-white">

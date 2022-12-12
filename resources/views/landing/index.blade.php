@@ -88,10 +88,10 @@
                         <a href="testimonial.html" class="dropdown-item">Testimonial</a>
                         <a href="404.html" class="dropdown-item">404 Page</a>
                     </div>
-                </div>
-                <a href="contact.html" class="nav-item nav-link">Contact</a> --}}
+                </div> --}}
+                <a href="{{route('login')}}" class="nav-item nav-link">Login / Register</a>
             </div>
-            <a href="{{route('login')}}" class="btn btn-primary px-5 d-none d-lg-block">Login / Register</a>
+            {{-- <a href="{{route('login')}}" class="btn btn-primary btn-sm px-5 d-none d-lg-block" >Login / Register</a> --}}
         </div>
     </nav>
     <!-- Navbar End -->
@@ -250,12 +250,12 @@
             <div class="row g-5 align-items-center">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="position-relative me-lg-4">
-                        <img class="img-fluid w-100" src="{{ asset('/assets/landing/img/feature.jpg') }}" alt="">
+                        <img class="img-fluid w-100" src="{{ asset('/assets/landing/img/bll-integrated.png') }}" alt="">
                         <span
                             class="position-absolute top-50 start-100 translate-middle bg-white rounded-circle d-none d-lg-block"
                             style="width: 120px; height: 120px;"></span>
                         <button type="button" class="btn-play" data-bs-toggle="modal"
-                            data-src="{{ asset('https://www.youtube.com/embed/DWRcNpR6Kdc') }}" data-bs-target="#videoModal">
+                            data-src="{{ asset('assets/videos/bll.mp4') }}" data-bs-target="#videoModal">
                             <span></span>
                         </button>
                     </div>
@@ -313,7 +313,7 @@
         <div class="modal-dialog">
             <div class="modal-content rounded-0">
                 <div class="modal-header">
-                    <h3 class="modal-title" id="exampleModalLabel">Youtube Video</h3>
+                    <h3 class="modal-title" id="exampleModalLabel">Bomba Group</h3>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
@@ -465,25 +465,25 @@
     <!-- Project End --> --}}
 
 
-    {{-- <!-- Team Start -->
+    <!-- Team Start -->
     <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                <p class="fw-medium text-uppercase text-primary mb-2">Our Team</p>
-                <h1 class="display-5 mb-5">Dedicated Team Members</h1>
+                <p class="fw-medium text-uppercase text-primary mb-2">Our Systems Partner</p>
+                <h1 class="display-5 mb-5">We Are Fully Integrated</h1>
             </div>
             <div class="row g-4">
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item">
-                        <img class="img-fluid" src="{{ asset('/assets/landing/img/team-1.jpg') }}" alt="">
+                        <img class="img-integration mx-auto d-block" src="{{ asset('/assets/landing/img/insw.png') }}" alt="">
                         <div class="d-flex">
                             <div class="flex-shrink-0 btn-square bg-primary" style="width: 90px; height: 90px;">
                                 <i class="fa fa-2x fa-share text-white"></i>
                             </div>
                             <div class="position-relative overflow-hidden bg-light d-flex flex-column justify-content-center w-100 ps-4"
                                 style="height: 90px;">
-                                <h5>Rob Miller</h5>
-                                <span class="text-primary">CEO & Founder</span>
+                                <h5>INSW</h5>
+                                <span class="text-primary">Indonesia National Single Window</span>
                                 <div class="team-social">
                                     <a class="btn btn-square btn-dark rounded-circle mx-1" href=""><i
                                             class="fab fa-facebook-f"></i></a>
@@ -498,15 +498,15 @@
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="team-item">
-                        <img class="img-fluid" src="{{ asset('/assets/landing/img/team-2.jpg') }}" alt="">
+                        <img class="img-integration mx-auto d-block" src="{{ asset('/assets/landing/img/kemenkeu.png') }}" alt="">
                         <div class="d-flex">
                             <div class="flex-shrink-0 btn-square bg-primary" style="width: 90px; height: 90px;">
                                 <i class="fa fa-2x fa-share text-white"></i>
                             </div>
                             <div class="position-relative overflow-hidden bg-light d-flex flex-column justify-content-center w-100 ps-4"
                                 style="height: 90px;">
-                                <h5>Adam Crew</h5>
-                                <span class="text-primary">Project Manager</span>
+                                <h5>KEMENKEU</h5>
+                                <span class="text-primary">Kementrian Keuangan Republik Indonesia</span>
                                 <div class="team-social">
                                     <a class="btn btn-square btn-dark rounded-circle mx-1" href=""><i
                                             class="fab fa-facebook-f"></i></a>
@@ -521,15 +521,61 @@
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="team-item">
-                        <img class="img-fluid" src="{{ asset('/assets/landing/img/team-3.jpg') }}" alt="">
+                        <img class="img-integration mx-auto d-block" src="{{ asset('/assets/landing/img/kemenhub.png') }}" alt="">
                         <div class="d-flex">
                             <div class="flex-shrink-0 btn-square bg-primary" style="width: 90px; height: 90px;">
                                 <i class="fa fa-2x fa-share text-white"></i>
                             </div>
                             <div class="position-relative overflow-hidden bg-light d-flex flex-column justify-content-center w-100 ps-4"
                                 style="height: 90px;">
-                                <h5>Peter Farel</h5>
-                                <span class="text-primary">Engineer</span>
+                                <h5>KEMENHUB</h5>
+                                <span class="text-primary">Kementrian Perhubungan</span>
+                                <div class="team-social">
+                                    <a class="btn btn-square btn-dark rounded-circle mx-1" href=""><i
+                                            class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square btn-dark rounded-circle mx-1" href=""><i
+                                            class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square btn-dark rounded-circle mx-1" href=""><i
+                                            class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item">
+                        <img class="img-integration mx-auto d-block" src="{{ asset('/assets/landing/img/kemenkumham.png') }}" alt="">
+                        <div class="d-flex">
+                            <div class="flex-shrink-0 btn-square bg-primary" style="width: 90px; height: 90px;">
+                                <i class="fa fa-2x fa-share text-white"></i>
+                            </div>
+                            <div class="position-relative overflow-hidden bg-light d-flex flex-column justify-content-center w-100 ps-4"
+                                style="height: 90px;">
+                                <h5>KEMENKUMHAM</h5>
+                                <span class="text-primary">Kementrian Hukum dan HAM</span>
+                                <div class="team-social">
+                                    <a class="btn btn-square btn-dark rounded-circle mx-1" href=""><i
+                                            class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square btn-dark rounded-circle mx-1" href=""><i
+                                            class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square btn-dark rounded-circle mx-1" href=""><i
+                                            class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item text-center">
+                        <img class="img-integration mx-auto d-block" src="{{ asset('/assets/landing/img/kemenkes.png') }}" alt="">
+                        <div class="d-flex">
+                            <div class="flex-shrink-0 btn-square bg-primary" style="width: 90px; height: 90px;">
+                                <i class="fa fa-2x fa-share text-white"></i>
+                            </div>
+                            <div class="position-relative overflow-hidden bg-light d-flex flex-column justify-content-center w-100 ps-4"
+                                style="height: 90px;">
+                                <h5>KEMENKES</h5>
+                                <span class="text-primary">Kementrian Kesehatan</span>
                                 <div class="team-social">
                                     <a class="btn btn-square btn-dark rounded-circle mx-1" href=""><i
                                             class="fab fa-facebook-f"></i></a>
@@ -545,7 +591,7 @@
             </div>
         </div>
     </div>
-    <!-- Team End --> --}}
+    <!-- Team End -->
 
     <!-- Footer Start -->
     <div class="container-fluid bg-dark footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
