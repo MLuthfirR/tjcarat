@@ -12,6 +12,7 @@ trait CreateConnection {
     {
         $client = new Client([
             'base_uri' => $this->baseUri,
+            'allow_redirects'=> ['strict'=>true],
         ]);
 
         try {

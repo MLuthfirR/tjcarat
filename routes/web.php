@@ -43,8 +43,8 @@ Route::prefix('webapi')->name('webapi.')->group(function () {
     });
     // WEBAPI: SA
     Route::prefix('sa')->middleware('authorize:admin')->name('sa.')->group(function () {
-        Route::post('/', [WebApiHelper::class, 'sa'])->name('post');
-        Route::get('/', [WebApiHelper::class, 'sa'])->name('get');
+        Route::post('/post', [WebApiHelper::class, 'sa'])->name('post');
+        Route::get('/get', [WebApiHelper::class, 'sa'])->name('get');
     });
 });
 
