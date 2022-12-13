@@ -69,7 +69,7 @@
                             <div class="dropdown-menu dropdown-menu-right user-dd animated flipInY">
                                 @yield('navbar-options')
                                 <div class="dropdown-divider"></div>
-                                <form action="{{route('logout')}}" method="POST">
+                                <form action="{{route('logoutApp')}}" method="POST">
                                     @csrf
                                     <i data-feather="power" class="svg-icon mr-2 ml-1"></i>
                                     <button type="submit"  class="alm-load-more-btn more"> Logout</button>
