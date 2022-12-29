@@ -102,7 +102,7 @@
         <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="w-100" src="{{ asset('assets/landing/img/carousel-1.jpg') }}" alt="Image">
+                    <img class="w-100" src="{{ asset('assets/landing/img/carousel-1-new.jpg') }}" alt="Image">
                     <div class="carousel-caption">
                         <div class="container">
                             <div class="row justify-content-center">
@@ -117,7 +117,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="w-100" src="{{ asset('assets/landing/img/carousel-2.jpg') }}" alt="Image">
+                    <img class="w-100" src="{{ asset('assets/landing/img/carousel-2-new.jpg') }}" alt="Image">
                     <div class="carousel-caption">
                         <div class="container">
                             <div class="row justify-content-center">
@@ -151,18 +151,18 @@
                 <div class="col-lg-6">
                     <div class="row gx-3 h-100">
                         <div class="col-6 align-self-start wow fadeInUp" data-wow-delay="0.1s">
-                            <img class="img-fluid" src="{{ asset('assets/landing/img/about-1.jpg') }}">
+                            <img class="img-fluid" src="{{ asset('assets/landing/img/about-1-new.png') }}">
                         </div>
                         <div class="col-6 align-self-end wow fadeInDown" data-wow-delay="0.1s">
-                            <img class="img-fluid" src="{{ asset('assets/landing/img/about-2.png') }}">
+                            <img class="img-fluid" src="{{ asset('assets/landing/img/about-2-new.jpg') }}">
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
                     <p class="fw-medium text-uppercase text-primary mb-2">About Us</p>
-                    <h1 class="display-5 mb-4">Expand to Sea Port Services</h1>
-                    <p class="mb-4">PT. Benua Laut Lepas (“BLL”) is a company that was founded in 1997, which is currently developing its new  business in the field of Sea Port Service activities. BLL is a registered Badan Usaha Pelabuhan (BUP) or Port Business Entity that has been designated as an operator of the ship-to-ship Port Tanjung Carat Area, Banyuasin Regency, South Sumatera Province
-                    </p>
+                    <h1 class="display-5 mb-4">PT Benua Laut Lepas</h1>
+                    <p class="mb-4">PT. Benua Laut Lepas (BLL) with 20 years of experience in the maritime sector as shipping agencies, ship owner's, bunkering, ship chandler and rent tug/barge, recently BLL gained the trust of the Ministry of Transportation to manage floating  port in the waters of Tanjung Carat Banyuasin regency, South Sumatra province.</p>
+                    <p class="mb-4">BLL mission is to deliver operational excellence and exceptional customer service by providing safe, environmentally responsible, reliable and cost-effective for our clients in the ship-to-ship coal and transshipment other superior commodities in South Sumatera, Indonesia.</p>
                     <div class="d-flex align-items-center mb-4">
                         <div class="flex-shrink-0 bg-primary p-4">
                             <h1 class="display-2">20+</h1>
@@ -206,6 +206,20 @@
         </div>
     </div>
     <!-- About End -->
+
+    <!-- Working Area Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto pb-4 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <p class="fw-medium text-uppercase text-primary mb-2">Our Working Area</p>
+                <h1 class="display-6 mb-4">We Operate in Tanjung Carat Banyuasin regency, South Sumatra province</h1>
+            </div>
+            <div class="row gy-5 gx-4">
+                <img class="w-100 wow fadeInUp" src="{{ asset('assets/landing/img/working-area.png') }}" alt="Image">
+            </div>
+        </div>
+    </div>
+    <!-- Working Area End -->
 
 
     {{-- <!-- Facts Start -->
@@ -339,9 +353,9 @@
             <div class="row gy-5 gx-4">
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="service-item">
-                        <img class="img-fluid" src="{{ asset('assets/landing/img/service-1.png') }}" alt="">
+                        <img class="img-fluid" src="{{ asset('assets/landing/img/service-1-new.jpg') }}" alt="">
                         <div class="service-img">
-                            <img class="img-fluid" src="{{ asset('assets/landing/img/service-1.png') }}" alt="">
+                            <img class="img-fluid" src="{{ asset('assets/landing/img/service-1-new.jpg') }}" alt="">
                         </div>
                         <div class="service-detail">
                             <div class="service-title">
