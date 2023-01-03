@@ -372,9 +372,9 @@
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="service-item">
-                        <img class="img-fluid" src="{{ asset('assets/landing/img/service-2.jpg') }}" alt="">
+                        <img class="img-fluid" src="{{ asset('assets/landing/img/service-2-new.jpg') }}" alt="">
                         <div class="service-img">
-                            <img class="img-fluid" src="{{ asset('assets/landing/img/service-2.jpg') }}" alt="">
+                            <img class="img-fluid" src="{{ asset('assets/landing/img/service-2-new.jpg') }}" alt="">
                         </div>
                         <div class="service-detail">
                             <div class="service-title">
@@ -391,9 +391,9 @@
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="service-item">
-                        <img class="img-fluid" src="{{ asset('/assets/landing/img/service-3.jpg') }}" alt="">
+                        <img class="img-fluid" src="{{ asset('/assets/landing/img/service-3-new.jpg') }}" alt="">
                         <div class="service-img">
-                            <img class="img-fluid" src="{{ asset('/assets/landing/img/service-3.jpg') }}" alt="">
+                            <img class="img-fluid" src="{{ asset('/assets/landing/img/service-3-new.jpg') }}" alt="">
                         </div>
                         <div class="service-detail">
                             <div class="service-title">
@@ -421,6 +421,60 @@
                             </div>
                             <div class="service-text">
                                 <p class="text-white mb-0">Ship fender Facilities for transshipment operations</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item">
+                        <img class="img-fluid" src="{{ asset('/assets/landing/img/carousel-2-new.jpg') }}" alt="">
+                        <div class="service-img">
+                            <img class="img-fluid" src="{{ asset('/assets/landing/img/carousel-2-new.jpg') }}" alt="">
+                        </div>
+                        <div class="service-detail">
+                            <div class="service-title">
+                                <hr class="w-25">
+                                <h3 class="mb-0">Pilotage</h3>
+                                <hr class="w-25">
+                            </div>
+                            <div class="service-text">
+                                <p class="text-white mb-0">Pilotage services providing on-board assistance to the captains of ships </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item">
+                        <img class="img-fluid" src="{{ asset('/assets/landing/img/service-5-new.jpg') }}" alt="">
+                        <div class="service-img">
+                            <img class="img-fluid" src="{{ asset('/assets/landing/img/service-5-new.jpg') }}" alt="">
+                        </div>
+                        <div class="service-detail">
+                            <div class="service-title">
+                                <hr class="w-25">
+                                <h3 class="mb-0">Stevedoring</h3>
+                                <hr class="w-25">
+                            </div>
+                            <div class="service-text">
+                                <p class="text-white mb-0">Loading, distributing and transporting and other dockside functions </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item">
+                        <img class="img-fluid" src="{{ asset('/assets/landing/img/service-6-new.jpg') }}" alt="">
+                        <div class="service-img">
+                            <img class="img-fluid" src="{{ asset('/assets/landing/img/service-6-new.jpg') }}" alt="">
+                        </div>
+                        <div class="service-detail">
+                            <div class="service-title">
+                                <hr class="w-25">
+                                <h3 class="mb-0">Vessel Repair</h3>
+                                <hr class="w-25">
+                            </div>
+                            <div class="service-text">
+                                <p class="text-white mb-0"> Repair and construction of vessels</p>
                             </div>
                         </div>
                     </div>
@@ -478,6 +532,35 @@
     </div>
     <!-- Project End --> --}}
 
+    <!-- CIQP Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto pb-4 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <p class="fw-medium text-uppercase text-primary mb-2">CIQP - One Stop Service</p>
+                <h2 class="display-6 mb-4">To streamline the clearance procedures process, BLL will provide a one stop services of CIQP approvals to its clients.</h2>
+                <p class="mb-4">In order to accelerate the clearance process, Custom; Immigration; Quarantine and Port office will be located in one premise at our land base at Sungsang county.</p>
+            </div>
+            <div class="row gy-5 gx-4">
+                <img class="w-100 wow fadeInUp" src="{{ asset('assets/landing/img/ciqp.png') }}" alt="Image">
+            </div>
+        </div>
+    </div>
+    <!-- CIQP End -->
+
+    <!-- Integrated Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto pb-4 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <p class="fw-medium text-uppercase text-primary mb-2">Integrated System</p>
+                <h2 class="display-6 mb-4">We Are Integrated With Our Partners</h2>
+                <p class="mb-4">BLL will operate the system that interface with the respective authorities platform Indonesia National Single Window (INSW) system under the supervision of Indonesia Ministry  of Finance.  INSW will then connect BLL to other systems owned by the authorities related to port clearance such as Inaportnet system (Ministry  of Transportation), Ceisa (Custom), Immigration (Ministry of Law and Human Rights), Quarantine (Ministry of Health), Harbor Master (KSOP)  and Ministry of Marine Affairs and Fisheries</p>
+            </div>
+            <div class="row gy-5 gx-4">
+                <img class="w-100 wow fadeInUp" src="{{ asset('assets/landing/img/integrated.png') }}" alt="Image">
+            </div>
+        </div>
+    </div>
+    <!-- Integrated End -->
 
     <!-- Team Start -->
     <div class="container-xxl py-5">
