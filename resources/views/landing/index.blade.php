@@ -107,9 +107,9 @@
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-lg-10 text-start">
-                                    <p class="fs-5 fw-medium text-primary text-uppercase animated slideInRight">PT BENUA LAUT LEPAS</p>
-                                    <h1 class="display-1 text-white mb-5 animated slideInRight">More Than 20 Years
-                                        of Working Experience</h1>
+                                    <p class="fs-2 fw-medium text-primary text-uppercase animated slideInRight">Welcome To</p>
+                                    <h1 class="display-1 text-white animated slideInRight">PT Benua Laut Lepas (BLL)</h1>
+                                    <p class="fs-2 fw-medium text-primary text-uppercase animated slideInRight">Transshipment</p>
                                     <a href="{{route('login')}}" class="btn btn-primary py-3 px-5 animated slideInRight">Explore More</a>
                                 </div>
                             </div>
@@ -122,9 +122,37 @@
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-lg-10 text-start">
-                                    <p class="fs-5 fw-medium text-primary text-uppercase animated slideInRight">Ship to Ship Systems</p>
+                                    {{-- <p class="fs-5 fw-medium text-primary text-uppercase animated slideInRight">Ship to Ship Systems</p>
                                     <h1 class="display-1 text-white mb-5 animated slideInRight">The Integrated Ship to Ship Systems Ever Built</h1>
-                                    <a href="{{route('login')}}" class="btn btn-primary py-3 px-5 animated slideInRight">Explore More</a>
+                                    <a href="{{route('login')}}" class="btn btn-primary py-3 px-5 animated slideInRight">Explore More</a> --}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100" src="{{ asset('assets/landing/img/carousel-3-new.jpg') }}" alt="Image">
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-10 text-start">
+                                    {{-- <p class="fs-5 fw-medium text-primary text-uppercase animated slideInRight">Ship to Ship Systems</p>
+                                    <h1 class="display-1 text-white mb-5 animated slideInRight">The Integrated Ship to Ship Systems Ever Built</h1>
+                                    <a href="{{route('login')}}" class="btn btn-primary py-3 px-5 animated slideInRight">Explore More</a> --}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100" src="{{ asset('assets/landing/img/carousel-4-new.jpg') }}" alt="Image">
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-10 text-start">
+                                    {{-- <p class="fs-5 fw-medium text-primary text-uppercase animated slideInRight">Ship to Ship Systems</p>
+                                    <h1 class="display-1 text-white mb-5 animated slideInRight">The Integrated Ship to Ship Systems Ever Built</h1>
+                                    <a href="{{route('login')}}" class="btn btn-primary py-3 px-5 animated slideInRight">Explore More</a> --}}
                                 </div>
                             </div>
                         </div>
